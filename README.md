@@ -15,7 +15,8 @@
 * 使用脚本快速中转你的流量，仅适用于STSDUST家默认开通的CentOS7.7模版机型  
 * 在NAT策略已经配置好的情况下，ssh进入机器，依次执行下列2条命令直接进入配置中转阶段：  
 * `echo "199.232.28.133 raw.githubusercontent.com" >> /etc/hosts && echo "140.82.114.3 github.com" >> /etc/hosts`  
-* `bash <(curl https://raw.githubusercontent.com/stsdust/EasySTSDUST/master/easy_stsdust.sh)`  
+* `bash <(curl https://raw.githubusercontent.com/stsdust/EasySTSDUST/master/easy_stsdust.sh)` 
+    - 声明：本脚本修改自arloor大佬的natcfg.sh脚本，感谢大佬的脚本造福了像我一样的很多萌新小白  
 ***  
 ***  
 ## 完整食用教程  

@@ -17,6 +17,11 @@ iptables -t raw -F
 iptables -t mangle -F
 service iptables save
 
+# 关闭SELinux
+setenforce 0
+# 永久关闭SELinux
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/' /etc/sysconfig/selinux
+
 # 修改hosts文件以使github容易访问
 # echo "199.232.28.133 raw.githubusercontent.com" >> /etc/hosts
 # echo "140.82.114.3 github.com" >> /etc/hosts
