@@ -14,9 +14,10 @@
 ## 一键脚本  
 * 使用脚本快速中转你的流量，仅适用于STSDUST家默认开通的CentOS7.7模版机型  
 * 在NAT策略已经配置好的情况下，ssh进入机器，依次执行下列2条命令直接进入配置中转阶段：  
-* `echo "199.232.28.133 raw.githubusercontent.com" >> /etc/hosts && echo "140.82.114.3 github.com" >> /etc/hosts`  
+* `echo "199.232.68.133 raw.githubusercontent.com" >> /etc/hosts && echo "140.82.112.4 github.com" >> /etc/hosts`  
 * `bash <(curl https://raw.githubusercontent.com/stsdust/EasySTSDUST/master/easy_stsdust.sh)` 
     - 声明：本脚本修改自arloor大佬的natcfg.sh脚本，感谢大佬的脚本造福了像我一样的很多萌新小白  
+    - 说明：该脚本修改了原本的natcfg.sh，即使重启，IP的转发也不会失效  
 ***  
 ***  
 ## 完整食用教程  
@@ -37,7 +38,7 @@
 
 ***
 * SSH进入你的机器，并依次执行下方两条命令，根据图片内容设置中转：  
-* `echo "199.232.28.133 raw.githubusercontent.com" >> /etc/hosts && echo "140.82.114.3 github.com" >> /etc/hosts`  
+* `echo "199.232.68.133 raw.githubusercontent.com" >> /etc/hosts && echo "140.82.112.4 github.com" >> /etc/hosts`  
 * `bash <(curl https://raw.githubusercontent.com/stsdust/EasySTSDUST/master/easy_stsdust.sh)`  
 ![5.png](https://i.loli.net/2020/05/09/2Ue45GksmQbjhwB.png)  
 
