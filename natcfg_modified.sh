@@ -15,7 +15,7 @@ echo -e "${red}重要！！${black}: 使用该脚本前，请先到官网产品�
 echo -e "${red}教程地址${black}: https://github.com/stsdust/EasySTSDUST"
 echo
 setupService(){
-    wget -qO /usr/local/bin/dnat.sh --no-check-certificate https://raw.githubusercontent.com/stsdust/EasySTSDUST/master/dnat.sh||{
+    wget -qO /usr/local/bin/dnat.sh --no-check-certificate https://hub.stsdust.cf/stsdust/EasySTSDUST/raw/master/dnat.sh||{
         echo "脚本不存在，请通过github提交issue通知作者"
         exit 1
     }
