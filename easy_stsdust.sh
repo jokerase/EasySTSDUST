@@ -27,4 +27,4 @@ echo "199.232.68.133 raw.githubusercontent.com" >> /etc/hosts
 echo "140.82.112.4 github.com" >> /etc/hosts
 
 # 下载一键脚本并 执行
-wget -O natcfg.sh --no-check-certificate https://hub.stsdust.cf/stsdust/EasySTSDUST/raw/master/natcfg_modified.sh && chmod +x natcfg.sh && bash natcfg.sh
+wget -O natcfg.sh --no-check-certificate https://raw.githubusercontent.com/stsdust/EasySTSDUST/master/natcfg_modified.sh && chmod +x natcfg.sh && bash natcfg.sh
